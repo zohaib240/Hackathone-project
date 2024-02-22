@@ -50,6 +50,9 @@
 .flex-row{
     flex-direction: row;
 }
+.text-end{
+    text-align: end;
+}
 
 
 /* flex classes end */
@@ -90,13 +93,18 @@
     margin-top: 100px;
 }
 .font{
-    font-size: xx-large;
+    font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 
 /* margin classes end */
+.bg-brown{
+    background-color: #502314;
+    color: #eee5ee
+    
+}
 
 .bg-light{
     background-color: #ffffff;
@@ -105,14 +113,20 @@
     background-color: #000000;
 }
 .bg-grey{
-    background-color: #0f0f0f;
+    background-color: #777474;
 }
 /*font-color*/
+.smoke{
+    color: azure;
+}
 .red{
     color: red;
 }
 .black{
     color: #0c0c0c;
+}
+.brown{
+    color: #502314;
 }
 
 .center{
@@ -178,4 +192,7 @@
 /*border*/
 .border{
     border: 1px solid #ffffff;
+}
+.mobile{
+    max-width: 5px;
 }

@@ -4,7 +4,11 @@
     border
 }
 .logo{
-    width: 2px;
+    width: 3rem;
+    mix-blend-mode: color-burn;
+}
+.mix-blend{
+    mix-blend-mode: color-burn;
 }
 nav{
     background-color: #f1d987;
@@ -15,8 +19,21 @@ nav{
     align-items: center;
     
 }
+.location-bg{
+    background-color:  #f1d987;
+    color: #000000;
+}
+.icon{
+ color: #000000;
+ font-size: 2rem;
+
+}
+.gap-nav{
+    gap: 1rem;
+    padding-left: 8rem;
+}
 body{
-    background-color: hsl(44, 87%, 70%);
+    background-color: hsl(40, 11%, 89%);
 }
 ul{
     display: flex;
@@ -24,7 +41,7 @@ ul{
     align-items: center;
 }
 button{
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 20px;
     outline: none;
     border: none;
@@ -32,8 +49,24 @@ button{
     background-color: #000000;
     
 }
+.button-2{
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid  #e76901;
+    color: #e76901;
+    background-color:transparent;
+    }
+button:hover{
+    background-color: rgb(35, 32, 204);
+}
+.button-width{
+    width: 18rem;
+    height: 3rem;
+}
 h1{
     color: #000000;
+    width: 2rem;
 }
 @media (max-width:700px) {
 
@@ -45,7 +78,9 @@ nav{
     width: 100%;
     margin-right: 80px;
 }
+
 }
+
 .bg-red{
 background-color: #ff0000;
 }
@@ -56,4 +91,10 @@ background-color: #ff0000;
 .hero-img{
     width: 400px;
 }
-
+.gap{
+    gap: 30px;
+}
+.hight-last{
+    height: 80px;
+    width: 100%;
+}
